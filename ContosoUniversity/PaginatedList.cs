@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
+
 public class PaginatedList<T> : List<T>
 {
     public int PageIndex { get; private set; }
